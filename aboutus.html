@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur&display=swap" rel="stylesheet">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Josip Gojković">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us</title>
+    <link rel="stylesheet" href="aboutus.css">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <div class="location">
+            <button id="location-tag" onclick="redirectToContact()">Porsche Centar Zagreb</button>
+            <span id="gps-pin">📍</span>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="models.html">Models</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <section>
+        <div class="content">
+            <p>I looked around, but I couldn't find the car I was dreaming of: a small, light, energy-efficient sports car. That's why I decided to make it myself.<br>
+               <i>– Ferry Porsche</i><br> <br>
+                A sentence that says everything Porsche stands for. As a brand. As a company. As a car manufacturer. It has been our guiding star for more than 75 years. It carries all the values ​​that characterize our work and our vehicles. Quite understandable, because it was designed by the creator of the first sports car named Porsche: Ferdinand Anton Ernst Porsche - aka Ferry.</p>
+        </div>
+
+        <div id="grid-container">
+            <div class="grid-item">
+                <h1>Address</h1>
+                <h2>Salon</h2>
+                <p>
+                    Porsche Centar Zagreb<br><br>
+                    Velimira Škorpika 23<br><br>
+                    10 090 Zagreb<br><br>
+                    Croatia<br><br>
+                </p>
+            </div>
+            <div class="grid-item">
+                <h1>Contact</h1>
+                <p>
+                    Salon &#8594; 0800 7642<br><br>
+                    Service &#8594; 0800 6273<br><br>
+                    Additional equipment &#8594; 0800 8123<br><br>
+                    Porsche assistance <br>in Croatia &#8594; 0800 911 992<br><br>
+                </p>
+            </div>
+            <div class="grid-item">
+                <h1>Working hours</h1>
+                <h2>Salon</h2>
+                <p>
+                    Monday 8:00 ‑ 17:00 <br> <br>
+
+                    Tuesday 8:00 ‑ 17:00 <br> <br>
+
+                    Wendnesday 8:00 ‑ 17:00 <br> <br>
+
+                    Thursday 8:00 ‑ 17:00 <br> <br>
+
+                    Friday 8:00 ‑ 17:00 <br> <br>
+                    Salon is closed during the weekends and holidays.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; Josip Gojković. All rights reserved.<a href="https://github.com/jgojkov/projekt"><img src="Slike/GitHub-Mark-Light-32px.png" title="Github" alt="Github"></p>
+    </footer>
+
+    <script>
+        function redirectToContact() {
+            window.location.href = 'contact.html'; 
+        }
+    </script>
+</body>
+</html>
